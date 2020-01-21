@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="view" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="visualizeButton" mnemonicParsing="false" onAction="#onVisualizeButtonButtonAction" text="Visualizar" />
+      <Button fx:id="updateButton" mnemonicParsing="false" onAction="#onUpdateButtonAction" text="Modificar" />
+      <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#onDeleteButtonAction" text="Eliminar" />
+   </children>
+</HBox>
